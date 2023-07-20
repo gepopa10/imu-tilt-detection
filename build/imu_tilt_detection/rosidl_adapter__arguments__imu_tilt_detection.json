@@ -1,0 +1,6 @@
+{
+  "package_name": "imu_tilt_detection",
+  "non_idl_tuples": [
+    "/home/gepopa/ros2_ws/src/imu_tilt_detection:msg/TiltStatus.msg"
+  ]
+}

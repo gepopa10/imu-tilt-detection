@@ -1,0 +1,225 @@
+[0.000000] (-) TimerEvent: {}
+[0.000169] (imu_tilt_detection) JobQueued: {'identifier': 'imu_tilt_detection', 'dependencies': OrderedDict()}
+[0.001053] (imu_tilt_detection) JobStarted: {'identifier': 'imu_tilt_detection'}
+[0.008707] (imu_tilt_detection) JobProgress: {'identifier': 'imu_tilt_detection', 'progress': 'cmake'}
+[0.009255] (imu_tilt_detection) JobProgress: {'identifier': 'imu_tilt_detection', 'progress': 'build'}
+[0.009986] (imu_tilt_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection', '--', '-j12', '-l12'], 'cwd': '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gepopa'), ('SSH_AGENT_PID', '91077'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/gepopa'), ('OLDPWD', '/home/gepopa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gepopa/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'gepopa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gepopa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gepopa:@/tmp/.ICE-unix/1349,unix/gepopa:/tmp/.ICE-unix/1349'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/caa2b564_7a87_43ae_af63_998cb1657859'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KIVK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1395'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX9fK69d/agent.91076'), ('AMENT_PREFIX_PATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection/lib/python3.10/site-packages:/home/gepopa/ros2_ws/install/imu_tilt_detection/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection:/opt/ros/iron')]), 'shell': False}
+[0.050528] (imu_tilt_detection) StdoutLine: {'line': b'[  2%] Built target imu_tilt_detection__rosidl_generator_type_description\n'}
+[0.057546] (imu_tilt_detection) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_imu_tilt_detection\n'}
+[0.065822] (imu_tilt_detection) StdoutLine: {'line': b'[  5%] Built target imu_tilt_detection__cpp\n'}
+[0.067281] (imu_tilt_detection) StdoutLine: {'line': b'[ 19%] Built target imu_tilt_detection__rosidl_generator_c\n'}
+[0.086134] (imu_tilt_detection) StdoutLine: {'line': b'[ 33%] Built target imu_tilt_detection__rosidl_typesupport_c\n'}
+[0.086368] (imu_tilt_detection) StdoutLine: {'line': b'[ 36%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c\n'}
+[0.086596] (imu_tilt_detection) StdoutLine: {'line': b'[ 44%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp\n'}
+[0.087211] (imu_tilt_detection) StdoutLine: {'line': b'[ 52%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c\n'}
+[0.087680] (imu_tilt_detection) StdoutLine: {'line': b'[ 61%] Built target imu_tilt_detection__rosidl_typesupport_cpp\n'}
+[0.092001] (imu_tilt_detection) StdoutLine: {'line': b'[ 69%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp\n'}
+[0.099835] (-) TimerEvent: {}
+[0.109007] (imu_tilt_detection) StdoutLine: {'line': b'[ 69%] Built target imu_tilt_detection\n'}
+[0.110120] (imu_tilt_detection) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o\x1b[0m\n'}
+[0.129758] (imu_tilt_detection) StdoutLine: {'line': b'[ 75%] Built target imu_tilt_detection__py\n'}
+[0.149693] (imu_tilt_detection) StdoutLine: {'line': b'[ 80%] Built target imu_tilt_detection__rosidl_generator_py\n'}
+[0.169558] (imu_tilt_detection) StdoutLine: {'line': b'[ 97%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext\n'}
+[0.169833] (imu_tilt_detection) StdoutLine: {'line': b'[ 97%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext\n'}
+[0.169962] (imu_tilt_detection) StdoutLine: {'line': b'[ 97%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199958] (-) TimerEvent: {}
+[0.272710] (imu_tilt_detection) StdoutLine: {'line': b'running egg_info\n'}
+[0.273216] (imu_tilt_detection) StdoutLine: {'line': b'writing imu_tilt_detection.egg-info/PKG-INFO\n'}
+[0.273420] (imu_tilt_detection) StdoutLine: {'line': b'writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt\n'}
+[0.273554] (imu_tilt_detection) StdoutLine: {'line': b'writing top-level names to imu_tilt_detection.egg-info/top_level.txt\n'}
+[0.275081] (imu_tilt_detection) StdoutLine: {'line': b"reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'\n"}
+[0.275566] (imu_tilt_detection) StdoutLine: {'line': b"writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'\n"}
+[0.295087] (imu_tilt_detection) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_imu_tilt_detection_egg\n'}
+[0.300056] (-) TimerEvent: {}
+[0.400275] (-) TimerEvent: {}
+[0.500526] (-) TimerEvent: {}
+[0.600785] (-) TimerEvent: {}
+[0.701037] (-) TimerEvent: {}
+[0.801315] (-) TimerEvent: {}
+[0.901577] (-) TimerEvent: {}
+[1.001792] (-) TimerEvent: {}
+[1.102065] (-) TimerEvent: {}
+[1.202342] (-) TimerEvent: {}
+[1.302592] (-) TimerEvent: {}
+[1.402847] (-) TimerEvent: {}
+[1.503121] (-) TimerEvent: {}
+[1.603377] (-) TimerEvent: {}
+[1.703631] (-) TimerEvent: {}
+[1.803903] (-) TimerEvent: {}
+[1.904158] (-) TimerEvent: {}
+[2.004419] (-) TimerEvent: {}
+[2.104665] (-) TimerEvent: {}
+[2.204918] (-) TimerEvent: {}
+[2.305220] (-) TimerEvent: {}
+[2.405508] (-) TimerEvent: {}
+[2.505845] (-) TimerEvent: {}
+[2.606203] (-) TimerEvent: {}
+[2.706474] (-) TimerEvent: {}
+[2.806727] (-) TimerEvent: {}
+[2.906997] (-) TimerEvent: {}
+[3.007252] (-) TimerEvent: {}
+[3.107547] (-) TimerEvent: {}
+[3.207847] (-) TimerEvent: {}
+[3.308099] (-) TimerEvent: {}
+[3.408397] (-) TimerEvent: {}
+[3.508668] (-) TimerEvent: {}
+[3.608955] (-) TimerEvent: {}
+[3.709240] (-) TimerEvent: {}
+[3.809599] (-) TimerEvent: {}
+[3.909888] (-) TimerEvent: {}
+[4.010143] (-) TimerEvent: {}
+[4.110372] (-) TimerEvent: {}
+[4.210674] (-) TimerEvent: {}
+[4.310959] (-) TimerEvent: {}
+[4.411240] (-) TimerEvent: {}
+[4.511507] (-) TimerEvent: {}
+[4.611788] (-) TimerEvent: {}
+[4.712057] (-) TimerEvent: {}
+[4.812316] (-) TimerEvent: {}
+[4.912596] (-) TimerEvent: {}
+[5.012842] (-) TimerEvent: {}
+[5.113092] (-) TimerEvent: {}
+[5.213381] (-) TimerEvent: {}
+[5.313681] (-) TimerEvent: {}
+[5.413947] (-) TimerEvent: {}
+[5.514332] (-) TimerEvent: {}
+[5.614611] (-) TimerEvent: {}
+[5.714930] (-) TimerEvent: {}
+[5.815221] (-) TimerEvent: {}
+[5.915510] (-) TimerEvent: {}
+[6.015882] (-) TimerEvent: {}
+[6.098811] (imu_tilt_detection) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tilt_publisher\x1b[0m\n'}
+[6.115977] (-) TimerEvent: {}
+[6.216237] (-) TimerEvent: {}
+[6.316531] (-) TimerEvent: {}
+[6.402084] (imu_tilt_detection) StdoutLine: {'line': b'[100%] Built target tilt_publisher\n'}
+[6.410743] (imu_tilt_detection) CommandEnded: {'returncode': 0}
+[6.416630] (-) TimerEvent: {}
+[6.465295] (imu_tilt_detection) JobProgress: {'identifier': 'imu_tilt_detection', 'progress': 'install'}
+[6.472173] (imu_tilt_detection) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection'], 'cwd': '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gepopa'), ('SSH_AGENT_PID', '91077'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/gepopa'), ('OLDPWD', '/home/gepopa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gepopa/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'gepopa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gepopa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gepopa:@/tmp/.ICE-unix/1349,unix/gepopa:/tmp/.ICE-unix/1349'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/caa2b564_7a87_43ae_af63_998cb1657859'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KIVK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1395'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX9fK69d/agent.91076'), ('AMENT_PREFIX_PATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection/lib/python3.10/site-packages:/home/gepopa/ros2_ws/install/imu_tilt_detection/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gepopa/ros2_ws/install/imu_tilt_detection:/opt/ros/iron')]), 'shell': False}
+[6.477992] (imu_tilt_detection) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.478241] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/rosidl_interfaces/imu_tilt_detection\n'}
+[6.478307] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/msg/TiltStatus.json\n'}
+[6.478362] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection\n'}
+[6.478413] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg\n'}
+[6.478463] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.478642] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail\n'}
+[6.478794] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.c\n'}
+[6.478886] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__struct.h\n'}
+[6.478973] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.h\n'}
+[6.479170] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__functions.c\n'}
+[6.479256] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__description.c\n'}
+[6.479341] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__functions.h\n'}
+[6.479425] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/tilt_status.h\n'}
+[6.479509] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/library_path.sh\n'}
+[6.479638] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/library_path.dsv\n'}
+[6.479793] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_generator_c.so\n'}
+[6.479959] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection\n'}
+[6.480154] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg\n'}
+[6.480291] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.480414] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail\n'}
+[6.480609] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_fastrtps_c.h\n'}
+[6.480686] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_fastrtps_c.so\n'}
+[6.480741] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection\n'}
+[6.480794] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg\n'}
+[6.480846] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail\n'}
+[6.480897] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__traits.hpp\n'}
+[6.480949] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__struct.hpp\n'}
+[6.481000] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__builder.hpp\n'}
+[6.481082] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/tilt_status.hpp\n'}
+[6.481135] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection\n'}
+[6.481186] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg\n'}
+[6.481238] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.481438] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail\n'}
+[6.481491] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.481654] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/dds_fastrtps\n'}
+[6.481773] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.481861] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection\n'}
+[6.482096] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg\n'}
+[6.482246] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.482365] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail\n'}
+[6.482485] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.c\n'}
+[6.482624] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_introspection_c.h\n'}
+[6.482726] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_introspection_c.so\n'}
+[6.482813] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_c.so\n'}
+[6.482861] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection\n'}
+[6.482907] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg\n'}
+[6.482953] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail\n'}
+[6.483002] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.483074] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.cpp\n'}
+[6.483125] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_introspection_cpp.so\n'}
+[6.483176] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_cpp.so\n'}
+[6.483226] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/pythonpath.sh\n'}
+[6.483310] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/pythonpath.dsv\n'}
+[6.483403] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info\n'}
+[6.483456] (imu_tilt_detection) StdoutLine: {'line': b'-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.483525] (imu_tilt_detection) StdoutLine: {'line': b'-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.483658] (imu_tilt_detection) StdoutLine: {'line': b'-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.483721] (imu_tilt_detection) StdoutLine: {'line': b'-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.483806] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection\n'}
+[6.483881] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.483969] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/__init__.py\n'}
+[6.484022] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_c.c\n'}
+[6.484115] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.484168] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.484218] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.484311] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.484357] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/libimu_tilt_detection__rosidl_generator_py.so\n'}
+[6.484409] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg\n'}
+[6.484454] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/__init__.py\n'}
+[6.484538] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/_tilt_status_s.c\n'}
+[6.484611] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/_tilt_status.py\n'}
+[6.510324] (imu_tilt_detection) StdoutLine: {'line': b"Listing '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection'...\n"}
+[6.510532] (imu_tilt_detection) StdoutLine: {'line': b"Listing '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg'...\n"}
+[6.514036] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.514337] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.514704] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.515024] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_generator_py.so\n'}
+[6.515209] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/msg/TiltStatus.idl\n'}
+[6.515293] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/msg/TiltStatus.msg\n'}
+[6.515463] (imu_tilt_detection) StdoutLine: {'line': b'-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/imu_tilt_detection/tilt_publisher\n'}
+[6.516702] (-) TimerEvent: {}
+[6.520457] (imu_tilt_detection) StdoutLine: {'line': b'-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/imu_tilt_detection/tilt_publisher" to ""\n'}
+[6.520707] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/package_run_dependencies/imu_tilt_detection\n'}
+[6.520853] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/parent_prefix_path/imu_tilt_detection\n'}
+[6.520917] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/ament_prefix_path.sh\n'}
+[6.521026] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/ament_prefix_path.dsv\n'}
+[6.521083] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/path.sh\n'}
+[6.521140] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/path.dsv\n'}
+[6.521195] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.bash\n'}
+[6.521251] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.sh\n'}
+[6.521349] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.zsh\n'}
+[6.521401] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.dsv\n'}
+[6.521456] (imu_tilt_detection) StdoutLine: {'line': b'-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.dsv\n'}
+[6.521513] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/packages/imu_tilt_detection\n'}
+[6.521615] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_cExport.cmake\n'}
+[6.521766] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.521831] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.521887] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.521974] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_cppExport.cmake\n'}
+[6.522062] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.522152] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.522230] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.522319] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.522405] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cExport.cmake\n'}
+[6.522497] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.522577] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.522707] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.522784] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cppExport.cmake\n'}
+[6.522870] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.522957] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_pyExport.cmake\n'}
+[6.523043] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.523133] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/rosidl_cmake-extras.cmake\n'}
+[6.523221] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.523308] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.523398] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.523505] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.523589] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.523725] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.523779] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detectionConfig.cmake\n'}
+[6.523838] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detectionConfig-version.cmake\n'}
+[6.523889] (imu_tilt_detection) StdoutLine: {'line': b'-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.xml\n'}
+[6.525659] (imu_tilt_detection) CommandEnded: {'returncode': 0}
+[6.616903] (-) TimerEvent: {}
+[6.627730] (imu_tilt_detection) JobEnded: {'identifier': 'imu_tilt_detection', 'rc': 0}
+[6.628463] (-) EventReactorShutdown: {}

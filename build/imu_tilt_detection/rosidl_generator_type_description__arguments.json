@@ -1,0 +1,14 @@
+{
+  "package_name": "imu_tilt_detection",
+  "output_dir": "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_generator_type_description/imu_tilt_detection",
+  "idl_tuples": [
+    "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_adapter/imu_tilt_detection:msg/TiltStatus.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/opt/ros/iron/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

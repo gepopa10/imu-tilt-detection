@@ -1,0 +1,253 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/iron/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)
+-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)
+-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Found ament_lint_auto: 0.14.1 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_generator_c>;$<BUILD_INTERFACE:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_typesupport_introspection_cpp>;/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_generator_c;/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/rosidl_generator_py
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection
+[  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[  2%] Built target ament_cmake_python_copy_imu_tilt_detection
+[  2%] Built target imu_tilt_detection__rosidl_generator_type_description
+[  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+running egg_info
+creating imu_tilt_detection.egg-info
+writing imu_tilt_detection.egg-info/PKG-INFO
+writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt
+writing top-level names to imu_tilt_detection.egg-info/top_level.txt
+writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[  8%] Built target ament_cmake_python_build_imu_tilt_detection_egg
+[  8%] Built target imu_tilt_detection__cpp
+[ 11%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_generator_c.dir/rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__description.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_generator_c.dir/rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__functions.c.o[0m
+[ 16%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_generator_c.dir/rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__type_support.c.o[0m
+[ 19%] [32m[1mLinking C shared library libimu_tilt_detection__rosidl_generator_c.so[0m
+[ 19%] Built target imu_tilt_detection__rosidl_generator_c
+[ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[ 27%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 27%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 33%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 36%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection__rosidl_typesupport_c.dir/rosidl_typesupport_c/imu_tilt_detection/msg/tilt_status__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/imu_tilt_detection/msg/tilt_status__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/imu_tilt_detection/msg/detail/tilt_status__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/imu_tilt_detection/msg/detail/tilt_status__type_support_c.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/imu_tilt_detection/msg/detail/dds_fastrtps/tilt_status__type_support.cpp.o[0m
+[ 55%] [32m[1mLinking CXX shared library libimu_tilt_detection__rosidl_typesupport_c.so[0m
+[ 58%] [32m[1mLinking C shared library libimu_tilt_detection__rosidl_typesupport_introspection_c.so[0m
+[ 58%] Built target imu_tilt_detection__rosidl_typesupport_c
+[ 58%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c
+[ 61%] [32m[1mLinking CXX shared library libimu_tilt_detection__rosidl_typesupport_fastrtps_c.so[0m
+[ 63%] [32m[1mLinking CXX shared library libimu_tilt_detection__rosidl_typesupport_cpp.so[0m
+[ 66%] [32m[1mLinking CXX shared library libimu_tilt_detection__rosidl_typesupport_introspection_cpp.so[0m
+[ 66%] Built target imu_tilt_detection__rosidl_typesupport_cpp
+[ 69%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c
+[ 69%] [32mBuilding CXX object CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o[0m
+[ 69%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp
+[ 72%] [32m[1mLinking CXX shared library libimu_tilt_detection__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 72%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp
+[ 72%] Built target imu_tilt_detection
+[ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 75%] Built target imu_tilt_detection__py
+[ 77%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_generator_py.dir/rosidl_generator_py/imu_tilt_detection/msg/_tilt_status_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/imu_tilt_detection/libimu_tilt_detection__rosidl_generator_py.so[0m
+[ 80%] Built target imu_tilt_detection__rosidl_generator_py
+[ 88%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_c.c.o[0m
+[ 88%] [32mBuilding C object CMakeFiles/imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 94%] [32m[1mLinking C shared library rosidl_generator_py/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] [32m[1mLinking C shared library rosidl_generator_py/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[ 97%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext
+[ 97%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:[m[K In member function ‘[01m[Kvoid TiltPublisher::publish_message(const Imu&)[m[K’:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:33:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::deque<bool>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   33 |         if([01;35m[K_tilted_values.size() > _nb_values_for_mean[m[K){
+      |            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable tilt_publisher[0m
+[100%] Built target tilt_publisher
+-- Install configuration: ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/rosidl_interfaces/imu_tilt_detection
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/msg/TiltStatus.json
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__struct.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__functions.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__description.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__functions.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/tilt_status.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/library_path.sh
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/library_path.dsv
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_generator_c.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__traits.hpp
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__struct.hpp
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__builder.hpp
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/tilt_status.hpp
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/dds_fastrtps
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_introspection_c.h
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_c.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg
+-- Up-to-date: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/msg/detail/tilt_status__type_support.cpp
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/pythonpath.sh
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/pythonpath.dsv
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/__init__.py
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/_imu_tilt_detection_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/libimu_tilt_detection__rosidl_generator_py.so
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/__init__.py
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/_tilt_status_s.c
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/_tilt_status.py
+Listing '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection'...
+Compiling '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/__init__.py'...
+Listing '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg'...
+Compiling '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/__init__.py'...
+Compiling '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/msg/_tilt_status.py'...
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages/imu_tilt_detection/imu_tilt_detection_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_generator_py.so
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/libimu_tilt_detection__rosidl_generator_py.so" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/msg/TiltStatus.idl
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/msg/TiltStatus.msg
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/imu_tilt_detection/tilt_publisher
+-- Set runtime path of "/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/imu_tilt_detection/tilt_publisher" to ""
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/package_run_dependencies/imu_tilt_detection
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/parent_prefix_path/imu_tilt_detection
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/ament_prefix_path.sh
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/ament_prefix_path.dsv
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/path.sh
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/environment/path.dsv
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.bash
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.sh
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.zsh
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/local_setup.dsv
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.dsv
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/ament_index/resource_index/packages/imu_tilt_detection
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_cExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_cppExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detection__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_pyExport.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/export_imu_tilt_detection__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detectionConfig.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/cmake/imu_tilt_detectionConfig-version.cmake
+-- Installing: /home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.xml

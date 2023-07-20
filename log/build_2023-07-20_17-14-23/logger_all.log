@@ -1,0 +1,120 @@
+[0.251s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f064a1d1bd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f064a98b880>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f064a98b880>>)
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.274s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.274s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/gepopa/ros2_ws/src/imu_tilt_detection'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.285s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'imu_tilt_detection'
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.285s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.302s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.304s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/gepopa/ros2_ws/install
+[0.306s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 284 installed packages in /opt/ros/iron
+[0.307s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'cmake_target' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'cmake_clean_cache' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'cmake_clean_first' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'cmake_force_configure' from command line to 'False'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'ament_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'catkin_cmake_args' from command line to 'None'
+[0.346s] Level 5:colcon.colcon_core.verb:set package 'imu_tilt_detection' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.346s] DEBUG:colcon.colcon_core.verb:Building package 'imu_tilt_detection' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection', 'merge_install': False, 'path': '/home/gepopa/ros2_ws/src/imu_tilt_detection', 'symlink_install': False, 'test_result_base': None}
+[0.347s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.349s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.349s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/gepopa/ros2_ws/src/imu_tilt_detection' with build type 'ament_cmake'
+[0.349s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/gepopa/ros2_ws/src/imu_tilt_detection'
+[0.352s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection -- -j12 -l12
+[6.760s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection -- -j12 -l12
+[6.821s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection
+[6.874s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tilt_detection)
+[6.875s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --install /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection
+[6.879s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection' for CMake module files
+[6.879s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection' for CMake config files
+[6.880s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tilt_detection', 'cmake_prefix_path')
+[6.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/cmake_prefix_path.ps1'
+[6.881s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/cmake_prefix_path.dsv'
+[6.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/cmake_prefix_path.sh'
+[6.882s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib'
+[6.882s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tilt_detection', 'ld_library_path_lib')
+[6.883s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/ld_library_path_lib.ps1'
+[6.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/ld_library_path_lib.dsv'
+[6.884s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/ld_library_path_lib.sh'
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/bin'
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/pkgconfig/imu_tilt_detection.pc'
+[6.884s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages'
+[6.884s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tilt_detection', 'pythonpath')
+[6.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/pythonpath.ps1'
+[6.885s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/pythonpath.dsv'
+[6.886s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/pythonpath.sh'
+[6.886s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/bin'
+[6.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.ps1'
+[6.888s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.dsv'
+[6.888s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.sh'
+[6.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.bash'
+[6.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.zsh'
+[6.890s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/colcon-core/packages/imu_tilt_detection)
+[6.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_tilt_detection)
+[6.961s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection' for CMake module files
+[6.962s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection' for CMake config files
+[6.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tilt_detection', 'cmake_prefix_path')
+[6.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/cmake_prefix_path.ps1'
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/cmake_prefix_path.dsv'
+[6.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/cmake_prefix_path.sh'
+[6.966s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib'
+[6.966s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tilt_detection', 'ld_library_path_lib')
+[6.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/ld_library_path_lib.ps1'
+[6.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/ld_library_path_lib.dsv'
+[6.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/ld_library_path_lib.sh'
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/bin'
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/pkgconfig/imu_tilt_detection.pc'
+[6.969s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages'
+[6.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_tilt_detection', 'pythonpath')
+[6.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/pythonpath.ps1'
+[6.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/pythonpath.dsv'
+[6.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/hook/pythonpath.sh'
+[6.972s] Level 1:colcon.colcon_core.environment:checking '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/bin'
+[6.973s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.ps1'
+[6.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.dsv'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.sh'
+[6.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.bash'
+[6.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/imu_tilt_detection/package.zsh'
+[6.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/share/colcon-core/packages/imu_tilt_detection)
+[6.976s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.977s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.977s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.994s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.996s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/local_setup.ps1'
+[6.998s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/_local_setup_util_ps1.py'
+[7.000s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/setup.ps1'
+[7.002s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/local_setup.sh'
+[7.003s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/_local_setup_util_sh.py'
+[7.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/setup.sh'
+[7.005s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/local_setup.bash'
+[7.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/setup.bash'
+[7.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/local_setup.zsh'
+[7.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/setup.zsh'

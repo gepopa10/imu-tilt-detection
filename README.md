@@ -17,3 +17,7 @@ Tested on ROS2 Iron (Ubuntu 22.04).
 ## Results
 
 ![Outpit data Image](./media/output.png)
+
+With 100pts (1sec) smooth
+
+![Outpit data Image](./media/output_smoothed.png)
