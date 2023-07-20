@@ -10,6 +10,16 @@ This ROS2 package, **tilt_detection**, uses an IMU accelerometer to detect tilt 
 - **Output:** 
     - `/tilt/status` : `tilt_detection/TiltStatus` (Tilt status, `True` > 15° tilt, `False` otherwise)
 
+## Explanations
+
+**TiltPublisher** node that subscribes to `/imu/data_raw`, uses TiltDetector and published the computed status on `/tilt/status` at the same frequency.
+
+**TiltDetector** computes the tilt given accelerations.
+Functions:
+- compute_roll_deg_from_acceleration(double x, double y, double z) -> double
+- compute_pitch_deg_from_acceleration(double x, double y, double z) -> double
+- compute_tilt_status_from_acceleration(double x, double y, double z) -> bool
+
 ## Development
 
 Tested on ROS2 Iron (Ubuntu 22.04).

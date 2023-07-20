@@ -13,21 +13,26 @@ find_package(sensor_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 set(msg_files "msg/TiltStatus.msg")
 rosidl_generate_interfaces(${PROJECT_NAME} ${msg_files} DEPENDENCIES sensor_msgs)
-add_executable(tilt_publisher src/tilt_publisher.cpp)
+add_executable(tilt_publisher src/tilt_publisher.cpp src/tilt_detector.cpp)
 ament_target_dependencies(tilt_publisher rclcpp std_msgs sensor_msgs rosidl_default_runtime)
 rosidl_get_typesupport_target(cpp_typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
 target_link_libraries(tilt_publisher "${cpp_typesupport_target}") 
 
+target_include_directories(tilt_publisher PRIVATE
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+)
+
 if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  # the following line skips the linter which checks for copyrights
-  # comment the line when a copyright and license is added to all source files
-  set(ament_cmake_copyright_FOUND TRUE)
-  # the following line skips cpplint (only works in a git repo)
-  # comment the line when this package is in a git repo and when
-  # a copyright and license is added to all source files
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
+  find_package(ament_cmake_gtest REQUIRED)
+  ament_add_gtest(${PROJECT_NAME}_tilt_detector_test test/tilt_detector_test.cpp src/tilt_detector.cpp)
+  target_include_directories(${PROJECT_NAME}_tilt_detector_test PUBLIC
+    $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+  )
+  ament_target_dependencies(${PROJECT_NAME}_tilt_detector_test
+    std_msgs
+  )
 endif()
 
 install(TARGETS

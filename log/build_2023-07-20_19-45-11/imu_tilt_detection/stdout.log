@@ -1,0 +1,28 @@
+[  2%] Built target imu_tilt_detection__rosidl_generator_type_description
+[  6%] Built target gtest_main
+[ 11%] Built target gtest
+[ 11%] Built target ament_cmake_python_copy_imu_tilt_detection
+[35m[1mConsolidate compiler generated dependencies of target imu_tilt_detection_tilt_detector_test[0m
+[ 13%] Built target imu_tilt_detection__cpp
+[ 25%] Built target imu_tilt_detection__rosidl_generator_c
+[ 27%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o[0m
+[ 40%] Built target imu_tilt_detection__rosidl_typesupport_c
+[ 40%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c
+[ 47%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c
+[ 54%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target imu_tilt_detection__rosidl_typesupport_cpp
+[ 68%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp
+[ 68%] Built target imu_tilt_detection
+[ 75%] Built target tilt_publisher
+[ 77%] Built target imu_tilt_detection__py
+[ 81%] Built target imu_tilt_detection__rosidl_generator_py
+[ 95%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext
+running egg_info
+writing imu_tilt_detection.egg-info/PKG-INFO
+writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt
+writing top-level names to imu_tilt_detection.egg-info/top_level.txt
+reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_imu_tilt_detection_egg

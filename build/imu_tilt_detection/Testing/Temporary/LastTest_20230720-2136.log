@@ -1,0 +1,50 @@
+Start testing: Jul 20 17:36 EDT
+----------------------------------------------------------
+1/1 Testing: imu_tilt_detection_tilt_detector_test
+1/1 Test: imu_tilt_detection_tilt_detector_test
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml" "--package-name" "imu_tilt_detection" "--output-file" "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/ament_cmake_gtest/imu_tilt_detection_tilt_detector_test.txt" "--command" "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection_tilt_detector_test" "--gtest_output=xml:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml"
+Directory: /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection
+"imu_tilt_detection_tilt_detector_test" start time: Jul 20 17:36 EDT
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection':
+ - /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection_tilt_detector_test --gtest_output=xml:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml
+[==========] Running 2 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from tilt_detector
+[ RUN      ] tilt_detector.a_first_test
+[       OK ] tilt_detector.a_first_test (0 ms)
+[----------] 1 test from tilt_detector (0 ms total)
+
+[----------] 1 test from tilt_detector2
+[ RUN      ] tilt_detector2.a_first_test2
+/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:10: Failure
+Expected equality of these values:
+  4
+  3 + 2
+    Which is: 5
+[  FAILED  ] tilt_detector2.a_first_test2 (0 ms)
+[----------] 1 test from tilt_detector2 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] tilt_detector2.a_first_test2
+
+ 1 FAILED TEST
+-- run_test.py: return code 1
+-- run_test.py: inject classname prefix into gtest result file '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml'
+-- run_test.py: verify result file '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml'
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"imu_tilt_detection_tilt_detector_test" end time: Jul 20 17:36 EDT
+"imu_tilt_detection_tilt_detector_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 20 17:36 EDT
+
+gtest =   0.05 sec*proc
+

@@ -1,0 +1,29 @@
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:58:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct GIVEN_acc_y_0_and_z_0[m[K’
+   58 | struct [01;31m[KGIVEN_acc_y_0_and_z_0[m[K : public tilt_detector_tests {
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:10:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct GIVEN_acc_y_0_and_z_0[m[K’
+   10 | struct [01;36m[KGIVEN_acc_y_0_and_z_0[m[K : public tilt_detector_tests {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+                 from [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:1[m[K:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test[m[K’
+   66 | TEST_F([01;31m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test[m[K’
+   18 | TEST_F([01;36m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ktesting::TestInfo* const GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::test_info_[m[K’
+   66 | TEST_F([01;31m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktesting::TestInfo* const GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::test_info_[m[K’ previously declared here
+   18 | TEST_F([01;36m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::TestBody()[m[K’
+   66 | TEST_F([01;31m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::TestBody()[m[K’ previously defined here
+   18 | TEST_F([01;36m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make:76: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:673: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -419,6 +419,19 @@ tilt_publisher/fast:
 .PHONY : tilt_publisher/fast
 
 #=============================================================================
+# Target rules for targets named imu_tilt_detection_tilt_detector_test
+
+# Build rule for target.
+imu_tilt_detection_tilt_detector_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 imu_tilt_detection_tilt_detector_test
+.PHONY : imu_tilt_detection_tilt_detector_test
+
+# fast build rule for target.
+imu_tilt_detection_tilt_detector_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build
+.PHONY : imu_tilt_detection_tilt_detector_test/fast
+
+#=============================================================================
 # Target rules for targets named imu_tilt_detection__py
 
 # Build rule for target.
@@ -430,6 +443,32 @@ imu_tilt_detection__py: cmake_check_build_system
 imu_tilt_detection__py/fast:
 	$(MAKE) $(MAKESILENT) -f imu_tilt_detection__py/CMakeFiles/imu_tilt_detection__py.dir/build.make imu_tilt_detection__py/CMakeFiles/imu_tilt_detection__py.dir/build
 .PHONY : imu_tilt_detection__py/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest.dir/build.make gtest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) $(MAKESILENT) -f gtest/CMakeFiles/gtest_main.dir/build.make gtest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
 
 rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__description.o: rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__description.c.o
 .PHONY : rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__description.o
@@ -743,6 +782,33 @@ rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/imu_tilt_detection__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__type_support.cpp.s
 
+src/tilt_detector.o: src/tilt_detector.cpp.o
+.PHONY : src/tilt_detector.o
+
+# target to build an object file
+src/tilt_detector.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tilt_publisher.dir/build.make CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/src/tilt_detector.cpp.o
+.PHONY : src/tilt_detector.cpp.o
+
+src/tilt_detector.i: src/tilt_detector.cpp.i
+.PHONY : src/tilt_detector.i
+
+# target to preprocess a source file
+src/tilt_detector.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tilt_publisher.dir/build.make CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/src/tilt_detector.cpp.i
+.PHONY : src/tilt_detector.cpp.i
+
+src/tilt_detector.s: src/tilt_detector.cpp.s
+.PHONY : src/tilt_detector.s
+
+# target to generate assembly for a file
+src/tilt_detector.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tilt_publisher.dir/build.make CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/src/tilt_detector.cpp.s
+.PHONY : src/tilt_detector.cpp.s
+
 src/tilt_publisher.o: src/tilt_publisher.cpp.o
 .PHONY : src/tilt_publisher.o
 
@@ -767,6 +833,30 @@ src/tilt_publisher.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tilt_publisher.dir/build.make CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.s
 .PHONY : src/tilt_publisher.cpp.s
 
+test/tilt_detector_test.o: test/tilt_detector_test.cpp.o
+.PHONY : test/tilt_detector_test.o
+
+# target to build an object file
+test/tilt_detector_test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o
+.PHONY : test/tilt_detector_test.cpp.o
+
+test/tilt_detector_test.i: test/tilt_detector_test.cpp.i
+.PHONY : test/tilt_detector_test.i
+
+# target to preprocess a source file
+test/tilt_detector_test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.i
+.PHONY : test/tilt_detector_test.cpp.i
+
+test/tilt_detector_test.s: test/tilt_detector_test.cpp.s
+.PHONY : test/tilt_detector_test.s
+
+# target to generate assembly for a file
+test/tilt_detector_test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.s
+.PHONY : test/tilt_detector_test.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -788,6 +878,8 @@ help:
 	@echo "... imu_tilt_detection__rosidl_generator_type_description"
 	@echo "... imu_tilt_detection_uninstall"
 	@echo "... uninstall"
+	@echo "... gtest"
+	@echo "... gtest_main"
 	@echo "... imu_tilt_detection__rosidl_generator_c"
 	@echo "... imu_tilt_detection__rosidl_generator_py"
 	@echo "... imu_tilt_detection__rosidl_typesupport_c"
@@ -799,6 +891,7 @@ help:
 	@echo "... imu_tilt_detection__rosidl_typesupport_introspection_c"
 	@echo "... imu_tilt_detection__rosidl_typesupport_introspection_c__pyext"
 	@echo "... imu_tilt_detection__rosidl_typesupport_introspection_cpp"
+	@echo "... imu_tilt_detection_tilt_detector_test"
 	@echo "... tilt_publisher"
 	@echo "... rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__description.o"
 	@echo "... rosidl_generator_c/imu_tilt_detection/msg/detail/tilt_status__description.i"
@@ -839,9 +932,15 @@ help:
 	@echo "... rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/imu_tilt_detection/msg/detail/tilt_status__type_support.s"
+	@echo "... src/tilt_detector.o"
+	@echo "... src/tilt_detector.i"
+	@echo "... src/tilt_detector.s"
 	@echo "... src/tilt_publisher.o"
 	@echo "... src/tilt_publisher.i"
 	@echo "... src/tilt_publisher.s"
+	@echo "... test/tilt_detector_test.o"
+	@echo "... test/tilt_detector_test.i"
+	@echo "... test/tilt_detector_test.s"
 .PHONY : help
 
 

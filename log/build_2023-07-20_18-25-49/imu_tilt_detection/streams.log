@@ -1,0 +1,39 @@
+[0.012s] Invoking command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection -- -j12 -l12
+[0.055s] [  2%] Built target imu_tilt_detection__rosidl_generator_type_description
+[0.056s] [  6%] Built target gtest_main
+[0.056s] [ 11%] Built target gtest
+[0.063s] [ 11%] Built target ament_cmake_python_copy_imu_tilt_detection
+[0.066s] [35m[1mConsolidate compiler generated dependencies of target imu_tilt_detection_tilt_detector_test[0m
+[0.072s] [ 13%] Built target imu_tilt_detection__cpp
+[0.073s] [ 25%] Built target imu_tilt_detection__rosidl_generator_c
+[0.078s] [ 27%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o[0m
+[0.092s] [ 34%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c
+[0.094s] [ 41%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c
+[0.094s] [ 48%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp
+[0.094s] [ 55%] Built target imu_tilt_detection__rosidl_typesupport_c
+[0.099s] [ 67%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp
+[0.099s] [ 69%] Built target imu_tilt_detection__rosidl_typesupport_cpp
+[0.117s] [ 69%] Built target imu_tilt_detection
+[0.123s] [ 76%] Built target tilt_publisher
+[0.135s] [ 79%] Built target imu_tilt_detection__py
+[0.153s] [ 83%] Built target imu_tilt_detection__rosidl_generator_py
+[0.172s] [ 97%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext
+[0.172s] [ 97%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext
+[0.172s] [ 97%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext
+[0.279s] running egg_info
+[0.279s] writing imu_tilt_detection.egg-info/PKG-INFO
+[0.279s] writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt
+[0.279s] writing top-level names to imu_tilt_detection.egg-info/top_level.txt
+[0.281s] reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[0.281s] writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[0.302s] [ 97%] Built target ament_cmake_python_build_imu_tilt_detection_egg
+[0.883s] [100%] [32m[1mLinking CXX executable imu_tilt_detection_tilt_detector_test[0m
+[0.971s] /usr/bin/ld: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o: in function `GIVEN_roll_tilt_higher_than_threshold_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status_Test::TestBody()':
+[0.971s] tilt_detector_test.cpp:(.text+0x5c): undefined reference to `TiltDetector::compute_tilt_status_from_acceleration(double, double, double)'
+[0.971s] /usr/bin/ld: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o: in function `tilt_detector_tests::tilt_detector_tests()':
+[0.971s] tilt_detector_test.cpp:(.text._ZN19tilt_detector_testsC2Ev[_ZN19tilt_detector_testsC5Ev]+0x60): undefined reference to `TiltDetector::TiltDetector(unsigned long, int)'
+[0.985s] collect2: error: ld returned 1 exit status
+[0.987s] gmake[2]: *** [CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make:125: imu_tilt_detection_tilt_detector_test] Error 1
+[0.987s] gmake[1]: *** [CMakeFiles/Makefile2:673: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/all] Error 2
+[0.987s] gmake: *** [Makefile:146: all] Error 2
+[0.989s] Invoked command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection -- -j12 -l12

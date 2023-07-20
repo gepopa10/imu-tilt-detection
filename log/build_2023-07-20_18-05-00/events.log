@@ -1,0 +1,221 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (imu_tilt_detection) JobQueued: {'identifier': 'imu_tilt_detection', 'dependencies': OrderedDict()}
+[0.000552] (imu_tilt_detection) JobStarted: {'identifier': 'imu_tilt_detection'}
+[0.009129] (imu_tilt_detection) JobProgress: {'identifier': 'imu_tilt_detection', 'progress': 'cmake'}
+[0.009666] (imu_tilt_detection) JobProgress: {'identifier': 'imu_tilt_detection', 'progress': 'build'}
+[0.010430] (imu_tilt_detection) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection', '--', '-j12', '-l12'], 'cwd': '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'gepopa'), ('SSH_AGENT_PID', '91077'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib:/home/gepopa/ros2_ws/install/imu_tilt_detection/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib'), ('HOME', '/home/gepopa'), ('OLDPWD', '/home/gepopa/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1367'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/gepopa/ros2_ws/src/imu_tilt_detection/install:/home/gepopa/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'gepopa'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'gepopa'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/gepopa:@/tmp/.ICE-unix/1349,unix/gepopa:/tmp/.ICE-unix/1349'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/caa2b564_7a87_43ae_af63_998cb1657859'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.KIVK71'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1395'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXX9fK69d/agent.91076'), ('AMENT_PREFIX_PATH', '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection:/home/gepopa/ros2_ws/install/imu_tilt_detection:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection/lib/python3.10/site-packages:/home/gepopa/ros2_ws/install/imu_tilt_detection/lib/python3.10/site-packages:/home/gepopa/ros2_ws/install/imu_tilt_detection/local/lib/python3.10/dist-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/gepopa/ros2_ws/src/imu_tilt_detection/install/imu_tilt_detection:/home/gepopa/ros2_ws/install/imu_tilt_detection:/opt/ros/iron')]), 'shell': False}
+[0.031526] (imu_tilt_detection) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.099385] (-) TimerEvent: {}
+[0.143106] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rclcpp: 21.0.2 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.167749] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.174894] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.185517] (imu_tilt_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.199055] (imu_tilt_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199490] (-) TimerEvent: {}
+[0.299695] (-) TimerEvent: {}
+[0.334318] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.335465] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399792] (-) TimerEvent: {}
+[0.431947] (imu_tilt_detection) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499890] (-) TimerEvent: {}
+[0.577498] (imu_tilt_detection) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.599993] (-) TimerEvent: {}
+[0.604283] (imu_tilt_detection) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[0.700111] (-) TimerEvent: {}
+[0.727924] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[0.734880] (imu_tilt_detection) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[0.800216] (-) TimerEvent: {}
+[0.900477] (-) TimerEvent: {}
+[0.999758] (imu_tilt_detection) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[1.000576] (-) TimerEvent: {}
+[1.100799] (-) TimerEvent: {}
+[1.201043] (-) TimerEvent: {}
+[1.301287] (-) TimerEvent: {}
+[1.371564] (imu_tilt_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401388] (-) TimerEvent: {}
+[1.501631] (-) TimerEvent: {}
+[1.518807] (imu_tilt_detection) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.536837] (imu_tilt_detection) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[1.555328] (imu_tilt_detection) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.555457] (imu_tilt_detection) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.555513] (imu_tilt_detection) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.601741] (-) TimerEvent: {}
+[1.601892] (imu_tilt_detection) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/iron/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.608509] (imu_tilt_detection) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.652772] (imu_tilt_detection) StdoutLine: {'line': b'-- Generating done\n'}
+[1.656331] (imu_tilt_detection) StdoutLine: {'line': b'-- Build files have been written to: /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection\n'}
+[1.677924] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest_main\x1b[0m\n'}
+[1.678131] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target gtest\x1b[0m\n'}
+[1.686404] (imu_tilt_detection) StdoutLine: {'line': b'[  2%] Built target imu_tilt_detection__rosidl_generator_type_description\n'}
+[1.690768] (imu_tilt_detection) StdoutLine: {'line': b'[  6%] Built target gtest_main\n'}
+[1.691281] (imu_tilt_detection) StdoutLine: {'line': b'[ 11%] Built target gtest\n'}
+[1.694784] (imu_tilt_detection) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_imu_tilt_detection\n'}
+[1.695573] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_generator_c\x1b[0m\n'}
+[1.700177] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection_tilt_detector_test\x1b[0m\n'}
+[1.701817] (-) TimerEvent: {}
+[1.703929] (imu_tilt_detection) StdoutLine: {'line': b'[ 13%] Built target imu_tilt_detection__cpp\n'}
+[1.706676] (imu_tilt_detection) StdoutLine: {'line': b'[ 25%] Built target imu_tilt_detection__rosidl_generator_c\n'}
+[1.713557] (imu_tilt_detection) StdoutLine: {'line': b'[ 30%] Built target imu_tilt_detection_tilt_detector_test\n'}
+[1.715544] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.715742] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.715917] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.716054] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.717519] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_c\x1b[0m\n'}
+[1.719067] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.726709] (imu_tilt_detection) StdoutLine: {'line': b'[ 37%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c\n'}
+[1.727119] (imu_tilt_detection) StdoutLine: {'line': b'[ 44%] Built target imu_tilt_detection__rosidl_typesupport_cpp\n'}
+[1.727943] (imu_tilt_detection) StdoutLine: {'line': b'[ 51%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp\n'}
+[1.728138] (imu_tilt_detection) StdoutLine: {'line': b'[ 58%] Built target imu_tilt_detection__rosidl_typesupport_c\n'}
+[1.728680] (imu_tilt_detection) StdoutLine: {'line': b'[ 65%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c\n'}
+[1.733858] (imu_tilt_detection) StdoutLine: {'line': b'[ 72%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp\n'}
+[1.736144] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target tilt_publisher\x1b[0m\n'}
+[1.750168] (imu_tilt_detection) StdoutLine: {'line': b'[ 72%] Built target imu_tilt_detection\n'}
+[1.752163] (imu_tilt_detection) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o\x1b[0m\n'}
+[1.752319] (imu_tilt_detection) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.o\x1b[0m\n'}
+[1.767670] (imu_tilt_detection) StdoutLine: {'line': b'[ 79%] Built target imu_tilt_detection__py\n'}
+[1.775952] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_generator_py\x1b[0m\n'}
+[1.787032] (imu_tilt_detection) StdoutLine: {'line': b'[ 83%] Built target imu_tilt_detection__rosidl_generator_py\n'}
+[1.795472] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.795680] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.795774] (imu_tilt_detection) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_tilt_detection__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.801909] (-) TimerEvent: {}
+[1.806686] (imu_tilt_detection) StdoutLine: {'line': b'[ 93%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.806888] (imu_tilt_detection) StdoutLine: {'line': b'[ 93%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext\n'}
+[1.807137] (imu_tilt_detection) StdoutLine: {'line': b'[ 97%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext\n'}
+[1.852960] (imu_tilt_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:1\x1b[m\x1b[K:\n'}
+[1.853105] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:6:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Knb_values_for_mean\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.853165] (imu_tilt_detection) StderrLine: {'line': b'    6 |     TiltDetector\x1b[34m\x1b[K(\x1b[m\x1b[Ksize_t\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Knb_values_for_mean\x1b[m\x1b[K, int tilt_threshold_deg);\n'}
+[1.853219] (imu_tilt_detection) StderrLine: {'line': b'      |                 \x1b[34m\x1b[K~\x1b[m\x1b[K      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.853270] (imu_tilt_detection) StderrLine: {'line': b'      |                        \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[1.855292] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:14:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.855376] (imu_tilt_detection) StderrLine: {'line': b'   14 |     const \x1b[01;31m\x1b[Ksize_t\x1b[m\x1b[K _nb_values_for_mean;\n'}
+[1.855431] (imu_tilt_detection) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.855482] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:2:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 is defined in header \xe2\x80\x98\x1b[01m\x1b[K<cstddef>\x1b[m\x1b[K\xe2\x80\x99; did you forget to \xe2\x80\x98\x1b[01m\x1b[K#include <cstddef>\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.855535] (imu_tilt_detection) StderrLine: {'line': b'    1 | #include <deque>\n'}
+[1.855585] (imu_tilt_detection) StderrLine: {'line': b'  +++ |+\x1b[32m\x1b[K#include <cstddef>\x1b[m\x1b[K\n'}
+[1.855640] (imu_tilt_detection) StderrLine: {'line': b'    2 | \n'}
+[1.855688] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:15:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Knon-static const member \xe2\x80\x98\x1b[01m\x1b[Kconst int TiltDetector::_tilt_threshold_deg\x1b[m\x1b[K\xe2\x80\x99 in class without a constructor [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized\x07-Wuninitialized\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.855739] (imu_tilt_detection) StderrLine: {'line': b'   15 |     const int \x1b[01;35m\x1b[K_tilt_threshold_deg\x1b[m\x1b[K;\n'}
+[1.855787] (imu_tilt_detection) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887131] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:5:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector(size_t, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887262] (imu_tilt_detection) StderrLine: {'line': b'    5 | \x1b[01;31m\x1b[KTiltDetector\x1b[m\x1b[K::TiltDetector(size_t nb_values_for_mean, int tilt_threshold_deg) : _nb_values_for_mean(nb_values_for_mean), _tilt_threshold_deg(tilt_threshold_deg){\n'}
+[1.887322] (imu_tilt_detection) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887373] (imu_tilt_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:1\x1b[m\x1b[K:\n'}
+[1.887424] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidates are: \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector(TiltDetector&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887482] (imu_tilt_detection) StderrLine: {'line': b'    3 | class \x1b[01;36m\x1b[KTiltDetector\x1b[m\x1b[K\n'}
+[1.887532] (imu_tilt_detection) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887580] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector(const TiltDetector&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887628] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K                \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887676] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TiltDetector\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.887725] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:8:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble TiltDetector::compute_roll_deg_from_acceleration_deg(double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887774] (imu_tilt_detection) StderrLine: {'line': b'    8 | double \x1b[01;31m\x1b[KTiltDetector\x1b[m\x1b[K::compute_roll_deg_from_acceleration_deg(double x, double y, double z){\n'}
+[1.887826] (imu_tilt_detection) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.887873] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:8:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kdouble TiltDetector::compute_roll_deg_from_acceleration_deg(double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.887925] (imu_tilt_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:1\x1b[m\x1b[K:\n'}
+[1.887972] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TiltDetector\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.888020] (imu_tilt_detection) StderrLine: {'line': b'    3 | class \x1b[01;36m\x1b[KTiltDetector\x1b[m\x1b[K\n'}
+[1.888067] (imu_tilt_detection) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.888119] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:12:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno declaration matches \xe2\x80\x98\x1b[01m\x1b[Kdouble TiltDetector::compute_pitch_deg_from_acceleration_deg(double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.888168] (imu_tilt_detection) StderrLine: {'line': b'   12 | double \x1b[01;31m\x1b[KTiltDetector\x1b[m\x1b[K::compute_pitch_deg_from_acceleration_deg(double x, double y, double z){\n'}
+[1.888215] (imu_tilt_detection) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.888262] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:12:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kno functions named \xe2\x80\x98\x1b[01m\x1b[Kdouble TiltDetector::compute_pitch_deg_from_acceleration_deg(double, double, double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.888310] (imu_tilt_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:1\x1b[m\x1b[K:\n'}
+[1.888357] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass TiltDetector\x1b[m\x1b[K\xe2\x80\x99 defined here\n'}
+[1.888404] (imu_tilt_detection) StderrLine: {'line': b'    3 | class \x1b[01;36m\x1b[KTiltDetector\x1b[m\x1b[K\n'}
+[1.888451] (imu_tilt_detection) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.889416] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool TiltDetector::compute_tilt_status_from_acceleration(double, double, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.889499] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:21:65:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.889555] (imu_tilt_detection) StderrLine: {'line': b'   21 |     roll > _tilt_threshold_deg || pitch > _tilt_threshold_deg ? \x1b[01;31m\x1b[Kmessage\x1b[m\x1b[K.tilted = true : message.tilted = false;\n'}
+[1.889613] (imu_tilt_detection) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.895353] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:23:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_nb_values_for_mean\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.895438] (imu_tilt_detection) StderrLine: {'line': b'   23 |     if(_tilted_values.size() +1 > \x1b[01;31m\x1b[K_nb_values_for_mean\x1b[m\x1b[K){\n'}
+[1.895495] (imu_tilt_detection) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.895800] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_detector.cpp:30:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaccumulate\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.895884] (imu_tilt_detection) StderrLine: {'line': b'   30 |     double sum = std::\x1b[01;31m\x1b[Kaccumulate\x1b[m\x1b[K(_tilted_values.begin(), _tilted_values.end(), 0.0);\n'}
+[1.895941] (imu_tilt_detection) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.902005] (-) TimerEvent: {}
+[1.904354] (imu_tilt_detection) StdoutLine: {'line': b'running egg_info\n'}
+[1.904905] (imu_tilt_detection) StdoutLine: {'line': b'writing imu_tilt_detection.egg-info/PKG-INFO\n'}
+[1.905073] (imu_tilt_detection) StdoutLine: {'line': b'writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt\n'}
+[1.905231] (imu_tilt_detection) StdoutLine: {'line': b'writing top-level names to imu_tilt_detection.egg-info/top_level.txt\n'}
+[1.906843] (imu_tilt_detection) StdoutLine: {'line': b"reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'\n"}
+[1.907347] (imu_tilt_detection) StdoutLine: {'line': b"writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'\n"}
+[1.926884] (imu_tilt_detection) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_imu_tilt_detection_egg\n'}
+[1.929099] (imu_tilt_detection) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tilt_publisher.dir/build.make:90: CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.o] Error 1\n'}
+[1.929312] (imu_tilt_detection) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[2.002139] (-) TimerEvent: {}
+[2.102399] (-) TimerEvent: {}
+[2.202644] (-) TimerEvent: {}
+[2.302905] (-) TimerEvent: {}
+[2.403169] (-) TimerEvent: {}
+[2.503430] (-) TimerEvent: {}
+[2.603704] (-) TimerEvent: {}
+[2.703969] (-) TimerEvent: {}
+[2.804230] (-) TimerEvent: {}
+[2.904510] (-) TimerEvent: {}
+[3.004774] (-) TimerEvent: {}
+[3.105059] (-) TimerEvent: {}
+[3.205358] (-) TimerEvent: {}
+[3.305626] (-) TimerEvent: {}
+[3.405892] (-) TimerEvent: {}
+[3.506161] (-) TimerEvent: {}
+[3.606478] (-) TimerEvent: {}
+[3.706740] (-) TimerEvent: {}
+[3.724945] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTiltPublisher::TiltPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.725249] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:9:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.725313] (imu_tilt_detection) StderrLine: {'line': b'    9 |     TiltPublisher() : Node("tilt_publisher"\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[3.725363] (imu_tilt_detection) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.725409] (imu_tilt_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:4\x1b[m\x1b[K:\n'}
+[3.725464] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:6:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector(size_t, int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.725510] (imu_tilt_detection) StderrLine: {'line': b'    6 |     \x1b[01;36m\x1b[KTiltDetector\x1b[m\x1b[K(size_t nb_values_for_mean, int tilt_threshold_deg);\n'}
+[3.725555] (imu_tilt_detection) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.725600] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:6:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[3.725649] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector(const TiltDetector&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.725694] (imu_tilt_detection) StderrLine: {'line': b'    3 | class \x1b[01;36m\x1b[KTiltDetector\x1b[m\x1b[K\n'}
+[3.725737] (imu_tilt_detection) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.725781] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[3.725825] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KTiltDetector::TiltDetector(TiltDetector&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.725873] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h:3:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 0 provided\n'}
+[3.736434] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:13:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KTiltDectector\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[KTiltDetector\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.736565] (imu_tilt_detection) StderrLine: {'line': b'   13 |         tilt_detector_ = \x1b[01;31m\x1b[KTiltDectector\x1b[m\x1b[K(_nb_values_for_mean, _tilt_threshold_deg);\n'}
+[3.736619] (imu_tilt_detection) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.736667] (imu_tilt_detection) StderrLine: {'line': b'      |                          \x1b[32m\x1b[KTiltDetector\x1b[m\x1b[K\n'}
+[3.740964] (imu_tilt_detection) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.741044] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/client.hpp:43\x1b[m\x1b[K,\n'}
+[3.741095] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.741142] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.741188] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.741233] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.741277] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.741329] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.741374] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.741418] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.741461] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167\x1b[m\x1b[K,\n'}
+[3.741509] (imu_tilt_detection) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:2\x1b[m\x1b[K:\n'}
+[3.741553] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TiltPublisher::publish_message(const Imu&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.741598] (imu_tilt_detection) StderrLine: {'line': b'\x1b[01m\x1b[K/home/gepopa/ros2_ws/src/imu_tilt_detection/src/tilt_publisher.cpp:29:106:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksum\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.741642] (imu_tilt_detection) StderrLine: {'line': b'   29 |         RCLCPP_INFO(this->get_logger(), "Publishing: \'%s\' sum: \'%f\'", message.tilted ? "True" : "False", \x1b[01;31m\x1b[Ksum\x1b[m\x1b[K);\n'}
+[3.741687] (imu_tilt_detection) StderrLine: {'line': b'      |                                                                                                          \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.806853] (-) TimerEvent: {}
+[3.907114] (-) TimerEvent: {}
+[4.007375] (-) TimerEvent: {}
+[4.107664] (-) TimerEvent: {}
+[4.207949] (-) TimerEvent: {}
+[4.308219] (-) TimerEvent: {}
+[4.408487] (-) TimerEvent: {}
+[4.508765] (-) TimerEvent: {}
+[4.609041] (-) TimerEvent: {}
+[4.709325] (-) TimerEvent: {}
+[4.809603] (-) TimerEvent: {}
+[4.909877] (-) TimerEvent: {}
+[5.010141] (-) TimerEvent: {}
+[5.110447] (-) TimerEvent: {}
+[5.210737] (-) TimerEvent: {}
+[5.311025] (-) TimerEvent: {}
+[5.325225] (imu_tilt_detection) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/tilt_publisher.dir/build.make:76: CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o] Error 1\n'}
+[5.325555] (imu_tilt_detection) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:646: CMakeFiles/tilt_publisher.dir/all] Error 2\n'}
+[5.325831] (imu_tilt_detection) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.327784] (imu_tilt_detection) CommandEnded: {'returncode': 2}
+[5.406518] (imu_tilt_detection) JobEnded: {'identifier': 'imu_tilt_detection', 'rc': 2}
+[5.411274] (-) TimerEvent: {}
+[5.417270] (-) EventReactorShutdown: {}

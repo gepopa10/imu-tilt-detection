@@ -1,0 +1,97 @@
+[  2%] Built target imu_tilt_detection__rosidl_generator_type_description
+[  6%] Built target gtest_main
+[ 11%] Built target gtest
+[ 11%] Built target ament_cmake_python_copy_imu_tilt_detection
+[35m[1mConsolidate compiler generated dependencies of target imu_tilt_detection_tilt_detector_test[0m
+[ 13%] Built target imu_tilt_detection__cpp
+[ 25%] Built target imu_tilt_detection__rosidl_generator_c
+[ 27%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o[0m
+[ 34%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c
+[ 40%] Built target imu_tilt_detection__rosidl_typesupport_cpp
+[ 47%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c
+[ 54%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp
+[ 61%] Built target imu_tilt_detection__rosidl_typesupport_c
+[ 68%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp
+[ 68%] Built target imu_tilt_detection
+[ 75%] Built target tilt_publisher
+[ 77%] Built target imu_tilt_detection__py
+[ 81%] Built target imu_tilt_detection__rosidl_generator_py
+[ 95%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext
+[ 95%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing imu_tilt_detection.egg-info/PKG-INFO
+writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt
+writing top-level names to imu_tilt_detection.egg-info/top_level.txt
+reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[ 95%] Built target ament_cmake_python_build_imu_tilt_detection_egg
+In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+                 from [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:1[m[K:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+   18 | [01;31m[KTEST_F[m[K(GIVEN_acc_x_5_and_z_10, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGIVEN_acc_x_5_and_z_10[m[K’ was not declared in this scope; did you mean ‘[01m[KGIVEN_acc_y_5_and_z_10[m[K’?
+   18 | TEST_F([01;31m[KGIVEN_acc_x_5_and_z_10[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:1:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KGetTypeId<<expression error> >()[m[K’
+   18 | [01;31m[KTEST_F[m[K(GIVEN_acc_x_5_and_z_10, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/internal/gtest-internal.h:423:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> const void* testing::internal::GetTypeId()[m[K’
+  423 | TypeId [01;36m[KGetTypeId[m[K() {
+      |        [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/internal/gtest-internal.h:423:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 | [01;31m[KTEST_F[m[K(GIVEN_acc_x_5_and_z_10, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGIVEN_acc_x_5_and_z_10[m[K’ was not declared in this scope; did you mean ‘[01m[KGIVEN_acc_y_5_and_z_10[m[K’?
+   18 | TEST_F([01;31m[KGIVEN_acc_x_5_and_z_10[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 | [01;31m[KTEST_F[m[K(GIVEN_acc_x_5_and_z_10, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;31m[Kerror: [m[K‘[01m[KGIVEN_acc_x_5_and_z_10[m[K’ was not declared in this scope; did you mean ‘[01m[KGIVEN_acc_y_5_and_z_10[m[K’?
+   18 | TEST_F([01;31m[KGIVEN_acc_x_5_and_z_10[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   18 | [01;31m[KTEST_F[m[K(GIVEN_acc_x_5_and_z_10, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:[m[K In member function ‘[01m[Kvirtual void GIVEN_acc_x_5_and_z_10_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::TestBody()[m[K’:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:20:15:[m[K [01;31m[Kerror: [m[K‘[01m[Ktilt_detector[m[K’ was not declared in this scope; did you mean ‘[01m[KTiltDetector[m[K’?
+   20 |   bool roll = [01;31m[Ktilt_detector[m[K.compute_roll_deg_from_acceleration(acc_x,acc_y,acc_z);
+      |               [01;31m[K^~~~~~~~~~~~~[m[K
+      |               [32m[KTiltDetector[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:20:64:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_x[m[K’ was not declared in this scope
+   20 |   bool roll = tilt_detector.compute_roll_deg_from_acceleration([01;31m[Kacc_x[m[K,acc_y,acc_z);
+      |                                                                [01;31m[K^~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:20:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_y[m[K’ was not declared in this scope
+   20 |   bool roll = tilt_detector.compute_roll_deg_from_acceleration(acc_x,[01;31m[Kacc_y[m[K,acc_z);
+      |                                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:20:76:[m[K [01;31m[Kerror: [m[K‘[01m[Kacc_z[m[K’ was not declared in this scope
+   20 |   bool roll = tilt_detector.compute_roll_deg_from_acceleration(acc_x,acc_y,[01;31m[Kacc_z[m[K);
+      |                                                                            [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:375[m[K,
+                 from [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:1[m[K:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:21:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kexpected_roll[m[K’ was not declared in this scope
+   21 |   ASSERT_EQ(roll, [01;31m[Kexpected_roll[m[K);
+      |                   [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:23:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kexpected_pitch[m[K’ was not declared in this scope
+   23 |   ASSERT_EQ(pitch, [01;31m[Kexpected_pitch[m[K);
+      |                    [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:[m[K At global scope:
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:26:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct GIVEN_acc_y_5_and_z_10[m[K’
+   26 | struct [01;31m[KGIVEN_acc_y_5_and_z_10[m[K : public tilt_detector_tests {
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:10:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct GIVEN_acc_y_5_and_z_10[m[K’
+   10 | struct [01;36m[KGIVEN_acc_y_5_and_z_10[m[K : public tilt_detector_tests {
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+                 from [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:1[m[K:
+/opt/ros/iron/src/gtest_vendor/include/gtest/internal/gtest-internal.h: In instantiation of ‘[01m[Ktesting::Test* testing::internal::TestFactoryImpl<TestClass>::CreateTest() [with TestClass = GIVEN_acc_x_5_and_z_10_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test][m[K’:
+[01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:9:[m[K   required from here
+[01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/internal/gtest-internal.h:460:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KGIVEN_acc_x_5_and_z_10_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test*[m[K’ to ‘[01m[Ktesting::Test*[m[K’ in return
+  460 |   Test* CreateTest() override { return new [01;31m[KTestClass[m[K; }
+      |                                            [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make:76: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:673: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

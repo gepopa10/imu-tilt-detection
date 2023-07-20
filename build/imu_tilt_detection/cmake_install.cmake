@@ -645,6 +645,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection__py/cmake_install.cmake")
+  include("/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/cmake_install.cmake")
 
 endif()
 

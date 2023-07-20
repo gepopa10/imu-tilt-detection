@@ -655,4 +655,6 @@ CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o: \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp \
  /opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp \
  /opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__traits.hpp \
- /opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp
+ /opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
+ /home/gepopa/ros2_ws/src/imu_tilt_detection/include/imu_tilt_detection/tilt_detector.h \
+ /usr/include/c++/11/cstddef

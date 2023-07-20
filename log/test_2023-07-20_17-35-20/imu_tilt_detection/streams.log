@@ -1,0 +1,44 @@
+[0.021s] Invoking command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process tests
+[0.026s] UpdateCTestConfiguration  from :/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CTestConfiguration.ini
+[0.026s] Parse Config file:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CTestConfiguration.ini
+[0.026s]    Site: gepopa
+[0.027s]    Build name: (empty)
+[0.027s]  Add coverage exclude regular expressions.
+[0.027s] Create new tag: 20230720-2135 - Experimental
+[0.027s] UpdateCTestConfiguration  from :/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CTestConfiguration.ini
+[0.027s] Parse Config file:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CTestConfiguration.ini
+[0.027s] Test project /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection
+[0.027s] Constructing a list of tests
+[0.027s] Done constructing a list of tests
+[0.027s] Updating test list for fixtures
+[0.027s] Added 0 tests to meet fixture requirements
+[0.027s] Checking test dependency graph...
+[0.027s] Checking test dependency graph end
+[0.027s] test 1
+[0.027s]     Start 1: imu_tilt_detection_tilt_detector_test
+[0.028s] 
+[0.028s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/iron/share/ament_cmake_test/cmake/run_test.py" "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml" "--package-name" "imu_tilt_detection" "--output-file" "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/ament_cmake_gtest/imu_tilt_detection_tilt_detector_test.txt" "--command" "/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection_tilt_detector_test" "--gtest_output=xml:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml"
+[0.028s] 1: Test timeout computed to be: 60
+[0.070s] 1: -- run_test.py: invoking following command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection':
+[0.070s] 1:  - /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection_tilt_detector_test --gtest_output=xml:/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml
+[0.072s] 1: [==========] Running 1 test from 1 test suite.
+[0.072s] 1: [----------] Global test environment set-up.
+[0.072s] 1: [----------] 1 test from imu_tilt_detection
+[0.072s] 1: [ RUN      ] imu_tilt_detection.a_first_test
+[0.072s] 1: [       OK ] imu_tilt_detection.a_first_test (0 ms)
+[0.072s] 1: [----------] 1 test from imu_tilt_detection (0 ms total)
+[0.073s] 1: 
+[0.073s] 1: [----------] Global test environment tear-down
+[0.073s] 1: [==========] 1 test from 1 test suite ran. (0 ms total)
+[0.073s] 1: [  PASSED  ] 1 test.
+[0.073s] 1: -- run_test.py: return code 0
+[0.073s] 1: -- run_test.py: verify result file '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/test_results/imu_tilt_detection/imu_tilt_detection_tilt_detector_test.gtest.xml'
+[0.079s] 1/1 Test #1: imu_tilt_detection_tilt_detector_test ...   Passed    0.05 sec
+[0.079s] 
+[0.079s] [0;32m100% tests passed[0;0m, 0 tests failed[0;0m out of 1
+[0.079s] 
+[0.079s] Label Time Summary:
+[0.079s] gtest    =   0.05 sec*proc (1 test)
+[0.079s] 
+[0.079s] Total Test time (real) =   0.05 sec
+[0.082s] Invoked command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection' returned '0': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process tests

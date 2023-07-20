@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="10" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40" name="AllTests">
+  <testsuite name="GIVEN_acc_y_0_and_z_0" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_acc_y_0_and_z_0" />
+  </testsuite>
+  <testsuite name="GIVEN_acc_x_10_and_z_10" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_acc_x_10_and_z_10" />
+  </testsuite>
+  <testsuite name="GIVEN_acc_y_10_and_z_10" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_acc_y_10_and_z_10" />
+  </testsuite>
+  <testsuite name="GIVEN_acc_x_0_and_z_0" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_acc_x_0_and_z_0" />
+  </testsuite>
+  <testsuite name="GIVEN_acc_x_10_and_y_10_and_z_10" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_acc_x_10_and_y_10_and_z_10" />
+  </testsuite>
+  <testsuite name="GIVEN_roll_tilt_higher_than_threshold" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_roll_tilt_higher_than_threshold" />
+  </testsuite>
+  <testsuite name="GIVEN_pitch_tilt_higher_than_threshold" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_pitch_tilt_higher_than_threshold" />
+  </testsuite>
+  <testsuite name="GIVEN_tilt_lower_than_threshold" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_tilt_lower_than_threshold" />
+  </testsuite>
+  <testsuite name="GIVEN_mean_higher_than_threshold" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_mean_higher_than_threshold" />
+  </testsuite>
+  <testsuite name="GIVEN_mean_lower_than_threshold" tests="1" failures="0" disabled="0" errors="0" time="0" timestamp="2023-07-20T19:45:40">
+    <testcase name="WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status" status="run" result="completed" time="0" timestamp="2023-07-20T19:45:40" classname="imu_tilt_detection.GIVEN_mean_lower_than_threshold" />
+  </testsuite>
+</testsuites>

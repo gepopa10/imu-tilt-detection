@@ -1,0 +1,2 @@
+Invoking command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process tests
+Invoked command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process tests

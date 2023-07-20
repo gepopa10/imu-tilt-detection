@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.o"
+  "CMakeFiles/tilt_publisher.dir/src/tilt_detector.cpp.o.d"
   "CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o"
   "CMakeFiles/tilt_publisher.dir/src/tilt_publisher.cpp.o.d"
   "tilt_publisher"

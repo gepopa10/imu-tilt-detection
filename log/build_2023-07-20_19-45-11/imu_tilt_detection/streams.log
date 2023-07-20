@@ -1,0 +1,59 @@
+[0.013s] Invoking command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection -- -j12 -l12
+[0.054s] [  2%] Built target imu_tilt_detection__rosidl_generator_type_description
+[0.055s] [  6%] Built target gtest_main
+[0.055s] [ 11%] Built target gtest
+[0.061s] [ 11%] Built target ament_cmake_python_copy_imu_tilt_detection
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target imu_tilt_detection_tilt_detector_test[0m
+[0.070s] [ 13%] Built target imu_tilt_detection__cpp
+[0.072s] [ 25%] Built target imu_tilt_detection__rosidl_generator_c
+[0.077s] [ 27%] [32mBuilding CXX object CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o[0m
+[0.093s] [ 40%] Built target imu_tilt_detection__rosidl_typesupport_c
+[0.093s] [ 40%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c
+[0.094s] [ 47%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c
+[0.094s] [ 54%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_cpp
+[0.094s] [ 61%] Built target imu_tilt_detection__rosidl_typesupport_cpp
+[0.098s] [ 68%] Built target imu_tilt_detection__rosidl_typesupport_introspection_cpp
+[0.114s] [ 68%] Built target imu_tilt_detection
+[0.116s] [ 75%] Built target tilt_publisher
+[0.132s] [ 77%] Built target imu_tilt_detection__py
+[0.151s] [ 81%] Built target imu_tilt_detection__rosidl_generator_py
+[0.169s] [ 95%] Built target imu_tilt_detection__rosidl_typesupport_fastrtps_c__pyext
+[0.169s] [ 95%] Built target imu_tilt_detection__rosidl_typesupport_introspection_c__pyext
+[0.170s] [ 95%] Built target imu_tilt_detection__rosidl_typesupport_c__pyext
+[0.275s] running egg_info
+[0.276s] writing imu_tilt_detection.egg-info/PKG-INFO
+[0.276s] writing dependency_links to imu_tilt_detection.egg-info/dependency_links.txt
+[0.277s] writing top-level names to imu_tilt_detection.egg-info/top_level.txt
+[0.278s] reading manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[0.279s] writing manifest file 'imu_tilt_detection.egg-info/SOURCES.txt'
+[0.299s] [ 95%] Built target ament_cmake_python_build_imu_tilt_detection_egg
+[0.751s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:58:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct GIVEN_acc_y_0_and_z_0[m[K’
+[0.751s]    58 | struct [01;31m[KGIVEN_acc_y_0_and_z_0[m[K : public tilt_detector_tests {
+[0.751s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.751s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:10:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct GIVEN_acc_y_0_and_z_0[m[K’
+[0.751s]    10 | struct [01;36m[KGIVEN_acc_y_0_and_z_0[m[K : public tilt_detector_tests {
+[0.751s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.751s] In file included from [01m[K/opt/ros/iron/src/gtest_vendor/include/gtest/gtest.h:62[m[K,
+[0.751s]                  from [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:1[m[K:
+[0.751s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test[m[K’
+[0.751s]    66 | TEST_F([01;31m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+[0.751s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.751s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test[m[K’
+[0.752s]    18 | TEST_F([01;36m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+[0.752s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.752s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Ktesting::TestInfo* const GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::test_info_[m[K’
+[0.752s]    66 | TEST_F([01;31m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+[0.752s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.752s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;36m[Knote: [m[K‘[01m[Ktesting::TestInfo* const GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::test_info_[m[K’ previously declared here
+[0.752s]    18 | TEST_F([01;36m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+[0.752s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.752s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:66:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::TestBody()[m[K’
+[0.752s]    66 | TEST_F([01;31m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+[0.752s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.752s] [01m[K/home/gepopa/ros2_ws/src/imu_tilt_detection/test/tilt_detector_test.cpp:18:8:[m[K [01;36m[Knote: [m[K‘[01m[Kvirtual void GIVEN_acc_y_0_and_z_0_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll_Test::TestBody()[m[K’ previously defined here
+[0.752s]    18 | TEST_F([01;36m[KGIVEN_acc_y_0_and_z_0[m[K, WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_roll)
+[0.752s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.853s] gmake[2]: *** [CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make:76: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o] Error 1
+[0.853s] gmake[1]: *** [CMakeFiles/Makefile2:673: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/all] Error 2
+[0.853s] gmake: *** [Makefile:146: all] Error 2
+[0.855s] Invoked command in '/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/iron /usr/bin/cmake --build /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection -- -j12 -l12

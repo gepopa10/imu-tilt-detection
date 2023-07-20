@@ -1,0 +1,9 @@
+[0.206s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'test-result', '--all', '--verbose']
+[0.206s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='test-result', test_result_base='build', all=True, result_files_only=False, verbose=True, delete=False, delete_yes=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fbb08193160>, verb_extension=<colcon_test_result.verb.test_result.TestResultVerb object at 0x7fbb082e38b0>, main=<bound method TestResultVerb.main of <colcon_test_result.verb.test_result.TestResultVerb object at 0x7fbb082e38b0>>)
+[0.209s] Level 1:colcon.colcon_test_result.test_result:get_test_results(ctest)
+[0.212s] Level 1:colcon.colcon_test_result.test_result:get_test_results(xunit)
+[0.213s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/imu_tilt_detection/Testing/20230720-2133/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.213s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/imu_tilt_detection/Testing/20230720-2135/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.213s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/imu_tilt_detection/Testing/20230720-2136/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.213s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/imu_tilt_detection/Testing/20230720-2228/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'
+[0.213s] DEBUG:colcon.colcon_test_result.test_result.xunit:Skipping 'build/imu_tilt_detection/Testing/20230720-2316/Test.xml': the root tag is neither 'testsuite' nor 'testsuites'

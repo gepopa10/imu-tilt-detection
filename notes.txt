@@ -13,6 +13,8 @@ ros2 topic hz /imu/data_raw
 
 ros2 run plotjuggler plotjuggler
 
-git add -all
+git add --all
 git commit -m "first commit"
 git push -u origin develop
+
+colcon build && colcon test --ctest-args tests && colcon test-result --all --verbose

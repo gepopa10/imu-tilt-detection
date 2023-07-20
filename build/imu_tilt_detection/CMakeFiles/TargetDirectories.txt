@@ -17,6 +17,7 @@
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/imu_tilt_detection__rosidl_typesupport_introspection_c__pyext.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/imu_tilt_detection__rosidl_typesupport_c__pyext.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/tilt_publisher.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/imu_tilt_detection_tilt_detector_test.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/test.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/edit_cache.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/CMakeFiles/rebuild_cache.dir
@@ -32,3 +33,12 @@
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection__py/CMakeFiles/install.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection__py/CMakeFiles/install/local.dir
 /home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/imu_tilt_detection__py/CMakeFiles/install/strip.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/gtest.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/gtest_main.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/test.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/edit_cache.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/rebuild_cache.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/list_install_components.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/install.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/install/local.dir
+/home/gepopa/ros2_ws/src/imu_tilt_detection/build/imu_tilt_detection/gtest/CMakeFiles/install/strip.dir

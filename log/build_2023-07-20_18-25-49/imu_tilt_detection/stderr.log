@@ -1,0 +1,8 @@
+/usr/bin/ld: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o: in function `GIVEN_roll_tilt_higher_than_threshold_WHEN_compute_tilt_status_from_acceleration_THEN_return_expected_tilt_status_Test::TestBody()':
+tilt_detector_test.cpp:(.text+0x5c): undefined reference to `TiltDetector::compute_tilt_status_from_acceleration(double, double, double)'
+/usr/bin/ld: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/test/tilt_detector_test.cpp.o: in function `tilt_detector_tests::tilt_detector_tests()':
+tilt_detector_test.cpp:(.text._ZN19tilt_detector_testsC2Ev[_ZN19tilt_detector_testsC5Ev]+0x60): undefined reference to `TiltDetector::TiltDetector(unsigned long, int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/build.make:125: imu_tilt_detection_tilt_detector_test] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:673: CMakeFiles/imu_tilt_detection_tilt_detector_test.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
