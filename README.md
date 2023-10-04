@@ -40,3 +40,6 @@ With 100pts (1sec) smooth
 
 The complementary filter that takes into account gyro rate provides more smoothed angle and a tilt status that is very similar but more reactive.
 ![Comparision with complementary filter](./media/complementary_filter_comparision.png)
+
+Here we can see that the lower the alpha gain in the complementary filter, the more the signal is influenced by the accelerometer which is noisy but more reactive.
+![Complementary filter alpha gain influence](./media/complementary_filter_alpha.png)
