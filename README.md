@@ -37,3 +37,6 @@ Tested on ROS2 Iron (Ubuntu 22.04).
 With 100pts (1sec) smooth
 
 ![Outpit data Image](./media/output_smoothed.png)
+
+The complementary filter that takes into account gyro rate provides more smoothed angle and a tilt status that is very similar but more reactive.
+![Comparision with complementary filter](./media/complementary_filter_comparision.png)

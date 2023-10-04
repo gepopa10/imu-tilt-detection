@@ -18,7 +18,8 @@ bool TiltDetector::compute_tilt_status_from_acceleration(double x, double y, dou
     const auto pitch = compute_pitch_deg_from_acceleration(x,y,z);
     
     bool tilted = false;
-    roll > _tilt_threshold_deg || pitch > _tilt_threshold_deg ? tilted = true : tilted = false;
+    auto overall_tilt = std::sqrt(std::pow(roll, 2) + std::pow(pitch, 2));
+    overall_tilt > _tilt_threshold_deg ? tilted = true : tilted = false;
         
     if(_tilted_values.size() +1 > _nb_values_for_mean){
         _tilted_values.pop_front();
