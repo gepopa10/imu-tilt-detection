@@ -1,3 +1,4 @@
+echo $ROS_DISTRO
 source /opt/ros/iron/setup.bash
 
 cd ~/ros2_ws

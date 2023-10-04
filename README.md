@@ -10,11 +10,17 @@ This ROS2 package, **tilt_detection**, uses an IMU accelerometer to detect tilt 
 - **Output:** 
     - `/tilt/status` : `tilt_detection/TiltStatus` (Tilt status, `True` > 15° tilt, `False` otherwise)
 
+## Run
+
+- Playback the data with: `ros2 bag play -l recorded_output/shaking_and_tilting_robot_bag/`. This publishes `/imu/data_raw`.
+- Run with `ros2 run imu_tilt_detection tilt_publisher`
+- Tests can be run with: `colcon test --ctest-args tests && colcon test-result --all --verbose`
+
 ## Explanations
 
-**TiltPublisher** node that subscribes to `/imu/data_raw`, uses TiltDetector and published the computed status on `/tilt/status` at the same frequency.
+**TiltPublisher** node that subscribes to `/imu/data_raw`, uses TiltDetector and published the computed status on `/tilt/status` at the same frequency. It also publishes to `/diagnostics` if there is no IMU data for more than 2 secs.
 
-**TiltDetector** computes the tilt given accelerations.
+**TiltDetector** computes the tilt given accelerations. It uses the direction of the gravity acceleration vector over 100 points and takes the mean to detect if the robot is tilted or not.
 Functions:
 - compute_roll_deg_from_acceleration(double x, double y, double z) -> double
 - compute_pitch_deg_from_acceleration(double x, double y, double z) -> double

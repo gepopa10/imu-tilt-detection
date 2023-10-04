@@ -1,0 +1,22 @@
+{
+    "configurations": [
+      {
+        "name": "ROS",
+        "includePath": [
+          "/opt/ros/iron/include/**",
+          "~/ros2_ws/devel/include/**",
+          "~/ros2_ws/src/**",
+          "~/ros2_ws/install/imu_tilt_detection/include/**",
+          "~/ros2_ws/install/imu_tilt_detection/include/imu_tilt_detection/imu_tilt_detection/**"
+        ],
+        "defines": [],
+        "compilerPath": "/usr/bin/gcc",
+        "cStandard": "c11",
+        "cppStandard": "c++14",
+        "intelliSenseMode": "gcc-x64",
+        "compileCommands": "~/ros2_ws/build/compile_commands.json"
+      }
+    ],
+    "version": 4
+  }
+  
